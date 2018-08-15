@@ -2,7 +2,78 @@
 
 # BountyDropper
 
-Below are two drafts for the most simple implemetation I can think of.
+Here is the contract:
+```javascript
+pragma solidity ^0.4.24;
+import "./ERC20Token.sol";
+
+contract BountyDropper {
+
+    address public owner;
+
+    struct Stake {
+        address[] hunterList;
+        mapping(address => uint) stakeMap;
+        uint stakeToTokens;
+    }
+    mapping(address => Stake) public stakes;
+
+    modifier onlyOwner() {
+        require(msg.sender == owner);
+        _;
+    }
+
+    constructor() public {
+        owner = msg.sender;
+    }
+
+    function addStake(address _tokenAddress, uint _stake, address _bountyHunterAddress) public onlyOwner {
+        require(_stake != 0);
+        if (stakes[_tokenAddress].stakeMap[_bountyHunterAddress] == 0) {
+            stakes[_tokenAddress].hunterList.push(_bountyHunterAddress);
+        }
+        stakes[_tokenAddress].stakeMap[_bountyHunterAddress] += _stake;
+    }
+
+    function distributeStakes(address _tokenAddress, uint _stakeToTokens) public onlyOwner {
+
+        Token token = Token(_tokenAddress);
+
+        stakes[_tokenAddress].stakeToTokens = _stakeToTokens;
+
+        for ( uint i = 0; i < stakes[_tokenAddress].hunterList.length; i++ ) {
+            address _bountyHunter = stakes[_tokenAddress].hunterList[i];
+            uint _tokenAmount = stakes[_tokenAddress].stakeMap[_bountyHunter] * _stakeToTokens;
+            token.transfer(_bountyHunter, _tokenAmount);
+        }
+    }
+
+}
+
+```
+## How it works:
+
+1. Only the 'Owner' can call the functions of this contract
+2. To add a stake, use function `addStake(address _tokenAddress, uint _stake, address _bountyHunterAddress)`. This will store how many stakes any bountyHunter has in any ICO.
+3.  To distribute stakes, use function `distributeStakes(address _tokenAddress, uint _stakeToTokens)`. This will distribute the stakes for a given tokenAddress. The second argument is important, as it dictates the rate of conversion between stakes and tokens. So this function will go through all of the bountyHunters for the given ICO, multiply the number of stakes they have by the argument given in this function, and transfer the result to each bountyHunter.
+
+## IMPORTANT!
+
+I have not yet implemented a control to make sure that the rate of stakes to tokens is such that it allows to transfer the correct amount to all bountyHunters. Thus, as of now, **it depends on correct and responsible use by the contract owner**. What I mean is: if contract owner passes a stakeToTokens variable that is too big, then only a certain number of bountyHunters will receive their tokens and it might then ... oh now that I think about this, I can implement this control very easily tonight.
+
+
+Also, the contract has to have control of all of the tokens in order to distribute them.
+
+I also have to take a look at the maximum amount of data a contract can hold to see how many bountyHunters and ICO's could be stored here.
+
+---
+
+
+# OLD NOTES BELOW
+
+**The below notes were preliminary and not important now**
+
+Below are two drafts for the most simple implementation I can think of.
 
 The essence is the following two step process:
 1. *BountyDropper* Receives predetermined number of tokens from the ICO after ICO completion.
