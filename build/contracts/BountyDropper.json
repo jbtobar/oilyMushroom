@@ -81,11 +81,11 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061075b806100606000396000f300608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630c5dc3161461006757806316934fc4146100b45780638da5cb5b1461010b578063f7b27f8f14610162575b600080fd5b34801561007357600080fd5b506100b2600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506101cf565b005b3480156100c057600080fd5b506100f5600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c0565b6040518082815260200191505060405180910390f35b34801561011757600080fd5b506101206104de565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561016e57600080fd5b506101cd600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610503565b005b6000806000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561023057600080fd5b85935084600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060020181905550600092505b600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001805490508310156104b857600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018381548110151561031b57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16915084600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020540290508373ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15801561046f57600080fd5b505af1158015610483573d6000803e3d6000fd5b505050506040513d602081101561049957600080fd5b810190808051906020019092919050505050828060010193505061027f565b505050505050565b60016020528060005260406000206000915090508060020154905081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561055e57600080fd5b6000821415151561056e57600080fd5b6000600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054141561069d57600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018190806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505b60018060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505050505600a165627a7a723058206310562145bbe3de00985f7b7db8986e01b1053279ed8403f7b8bd3b144896940029",
-  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630c5dc3161461006757806316934fc4146100b45780638da5cb5b1461010b578063f7b27f8f14610162575b600080fd5b34801561007357600080fd5b506100b2600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506101cf565b005b3480156100c057600080fd5b506100f5600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c0565b6040518082815260200191505060405180910390f35b34801561011757600080fd5b506101206104de565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561016e57600080fd5b506101cd600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610503565b005b6000806000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561023057600080fd5b85935084600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060020181905550600092505b600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001805490508310156104b857600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018381548110151561031b57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16915084600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020540290508373ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15801561046f57600080fd5b505af1158015610483573d6000803e3d6000fd5b505050506040513d602081101561049957600080fd5b810190808051906020019092919050505050828060010193505061027f565b505050505050565b60016020528060005260406000206000915090508060020154905081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561055e57600080fd5b6000821415151561056e57600080fd5b6000600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054141561069d57600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018190806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505b60018060008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505050505600a165627a7a723058206310562145bbe3de00985f7b7db8986e01b1053279ed8403f7b8bd3b144896940029",
-  "sourceMap": "53:1262:0:-;;;365:56;8:9:-1;5:2;;;30:1;27;20:12;5:2;365:56:0;404:10;396:5;;:18;;;;;;;;;;;;;;;;;;53:1262;;;;;;",
-  "deployedSourceMap": "53:1262:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;794:518;;8:9:-1;5:2;;;30:1;27;20:12;5:2;794:518:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;236:39;;8:9:-1;5:2;;;30:1;27;20:12;5:2;236:39:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;83:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;83:20:0;;;;;;;;;;;;;;;;;;;;;;;;;;;427:361;;8:9:-1;5:2;;;30:1;27;20:12;5:2;427:361:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;794:518;892:11;1006:6;1083:21;1156:17;335:5;;;;;;;;;;;321:19;;:10;:19;;;313:28;;;;;;;;912:13;892:34;;975:14;937:6;:21;944:13;937:21;;;;;;;;;;;;;;;:35;;:52;;;;1015:1;1006:10;;1000:306;1022:6;:21;1029:13;1022:21;;;;;;;;;;;;;;;:32;;:39;;;;1018:1;:43;1000:306;;;1107:6;:21;1114:13;1107:21;;;;;;;;;;;;;;;:32;;1140:1;1107:35;;;;;;;;;;;;;;;;;;;;;;;;;;;1083:59;;1224:14;1176:6;:21;1183:13;1176:21;;;;;;;;;;;;;;;:30;;:45;1207:13;1176:45;;;;;;;;;;;;;;;;:62;1156:82;;1252:5;:14;;;1267:13;1282:12;1252:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1252:43:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1252:43:0;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1252:43:0;;;;;;;;;;;;;;;;;1063:3;;;;;;;1000:306;;;794:518;;;;;;:::o;236:39::-;;;;;;;;;;;;;;;;;;;;;;:::o;83:20::-;;;;;;;;;;;;;:::o;427:361::-;335:5;;;;;;;;;;;321:19;;:10;:19;;;313:28;;;;;;;;556:1;546:6;:11;;538:20;;;;;;;;628:1;572:6;:21;579:13;572:21;;;;;;;;;;;;;;;:30;;:52;603:20;572:52;;;;;;;;;;;;;;;;:57;568:147;;;645:6;:21;652:13;645:21;;;;;;;;;;;;;;;:32;;683:20;645:59;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;645:59:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;568:147;780:1;724:6;:21;731:13;724:21;;;;;;;;;;;;;;;:30;;:52;755:20;724:52;;;;;;;;;;;;;;;;:57;;;;;;;;;;;427:361;;;:::o",
-  "source": "pragma solidity ^0.4.24;\nimport \"./ERC20Token.sol\";\n\ncontract BountyDropper {\n\n    address public owner;\n\n    struct Stake {\n        address[] hunterList;\n        mapping(address => uint) stakeMap;\n        uint stakeToTokens;\n    }\n    mapping(address => Stake) public stakes;\n\n    modifier onlyOwner() {\n        require(msg.sender == owner);\n        _;\n    }\n\n    constructor() public {\n        owner = msg.sender;\n    }\n\n    function addStake(address _tokenAddress, uint _stake, address _bountyHunterAddress) public onlyOwner {\n        require(_stake != 0);\n        if (stakes[_tokenAddress].stakeMap[_bountyHunterAddress] == 0) {\n            stakes[_tokenAddress].hunterList.push(_bountyHunterAddress);\n        }\n        stakes[_tokenAddress].stakeMap[_bountyHunterAddress] += 1;\n    }\n\n    function distributeStakes(address _tokenAddress, uint _stakeToTokens) public onlyOwner {\n\n        Token token = Token(_tokenAddress);\n\n        stakes[_tokenAddress].stakeToTokens = _stakeToTokens;\n\n        for ( uint i = 0; i < stakes[_tokenAddress].hunterList.length; i++ ) {\n            address _bountyHunter = stakes[_tokenAddress].hunterList[i];\n            uint _tokenAmount = stakes[_tokenAddress].stakeMap[_bountyHunter] * _stakeToTokens;\n            token.transfer(_bountyHunter, _tokenAmount);\n        }\n    }\n\n}\n",
+  "bytecode": "0x608060405234801561001057600080fd5b50336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555061075b806100606000396000f300608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630c5dc3161461006757806316934fc4146100b45780638da5cb5b1461010b578063f7b27f8f14610162575b600080fd5b34801561007357600080fd5b506100b2600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506101cf565b005b3480156100c057600080fd5b506100f5600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c0565b6040518082815260200191505060405180910390f35b34801561011757600080fd5b506101206104de565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561016e57600080fd5b506101cd600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610503565b005b6000806000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561023057600080fd5b85935084600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060020181905550600092505b600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001805490508310156104b857600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018381548110151561031b57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16915084600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020540290508373ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15801561046f57600080fd5b505af1158015610483573d6000803e3d6000fd5b505050506040513d602081101561049957600080fd5b810190808051906020019092919050505050828060010193505061027f565b505050505050565b60016020528060005260406000206000915090508060020154905081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561055e57600080fd5b6000821415151561056e57600080fd5b6000600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054141561069d57600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018190806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505b81600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505050505600a165627a7a72305820fc77186c97c4dede160dd780d41f7c01cd644a4373e17ec45f75097a47c774ca0029",
+  "deployedBytecode": "0x608060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630c5dc3161461006757806316934fc4146100b45780638da5cb5b1461010b578063f7b27f8f14610162575b600080fd5b34801561007357600080fd5b506100b2600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803590602001909291905050506101cf565b005b3480156100c057600080fd5b506100f5600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104c0565b6040518082815260200191505060405180910390f35b34801561011757600080fd5b506101206104de565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561016e57600080fd5b506101cd600480360381019080803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610503565b005b6000806000806000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561023057600080fd5b85935084600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060020181905550600092505b600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600001805490508310156104b857600160008773ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018381548110151561031b57fe5b9060005260206000200160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16915084600160008873ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020540290508373ffffffffffffffffffffffffffffffffffffffff1663a9059cbb83836040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200182815260200192505050602060405180830381600087803b15801561046f57600080fd5b505af1158015610483573d6000803e3d6000fd5b505050506040513d602081101561049957600080fd5b810190808051906020019092919050505050828060010193505061027f565b505050505050565b60016020528060005260406000206000915090508060020154905081565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561055e57600080fd5b6000821415151561056e57600080fd5b6000600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054141561069d57600160008473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000206000018190806001815401808255809150509060018203906000526020600020016000909192909190916101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505b81600160008573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060010160008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505050505600a165627a7a72305820fc77186c97c4dede160dd780d41f7c01cd644a4373e17ec45f75097a47c774ca0029",
+  "sourceMap": "53:1267:0:-;;;365:56;8:9:-1;5:2;;;30:1;27;20:12;5:2;365:56:0;404:10;396:5;;:18;;;;;;;;;;;;;;;;;;53:1267;;;;;;",
+  "deployedSourceMap": "53:1267:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;799:518;;8:9:-1;5:2;;;30:1;27;20:12;5:2;799:518:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;236:39;;8:9:-1;5:2;;;30:1;27;20:12;5:2;236:39:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;83:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;83:20:0;;;;;;;;;;;;;;;;;;;;;;;;;;;427:366;;8:9:-1;5:2;;;30:1;27;20:12;5:2;427:366:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;799:518;897:11;1011:6;1088:21;1161:17;335:5;;;;;;;;;;;321:19;;:10;:19;;;313:28;;;;;;;;917:13;897:34;;980:14;942:6;:21;949:13;942:21;;;;;;;;;;;;;;;:35;;:52;;;;1020:1;1011:10;;1005:306;1027:6;:21;1034:13;1027:21;;;;;;;;;;;;;;;:32;;:39;;;;1023:1;:43;1005:306;;;1112:6;:21;1119:13;1112:21;;;;;;;;;;;;;;;:32;;1145:1;1112:35;;;;;;;;;;;;;;;;;;;;;;;;;;;1088:59;;1229:14;1181:6;:21;1188:13;1181:21;;;;;;;;;;;;;;;:30;;:45;1212:13;1181:45;;;;;;;;;;;;;;;;:62;1161:82;;1257:5;:14;;;1272:13;1287:12;1257:43;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1257:43:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;1257:43:0;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;1257:43:0;;;;;;;;;;;;;;;;;1068:3;;;;;;;1005:306;;;799:518;;;;;;:::o;236:39::-;;;;;;;;;;;;;;;;;;;;;;:::o;83:20::-;;;;;;;;;;;;;:::o;427:366::-;335:5;;;;;;;;;;;321:19;;:10;:19;;;313:28;;;;;;;;556:1;546:6;:11;;538:20;;;;;;;;628:1;572:6;:21;579:13;572:21;;;;;;;;;;;;;;;:30;;:52;603:20;572:52;;;;;;;;;;;;;;;;:57;568:147;;;645:6;:21;652:13;645:21;;;;;;;;;;;;;;;:32;;683:20;645:59;;39:1:-1;33:3;27:10;23:18;57:10;52:3;45:23;79:10;72:17;;0:93;645:59:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;568:147;780:6;724;:21;731:13;724:21;;;;;;;;;;;;;;;:30;;:52;755:20;724:52;;;;;;;;;;;;;;;;:62;;;;;;;;;;;427:366;;;:::o",
+  "source": "pragma solidity ^0.4.24;\nimport \"./ERC20Token.sol\";\n\ncontract BountyDropper {\n\n    address public owner;\n\n    struct Stake {\n        address[] hunterList;\n        mapping(address => uint) stakeMap;\n        uint stakeToTokens;\n    }\n    mapping(address => Stake) public stakes;\n\n    modifier onlyOwner() {\n        require(msg.sender == owner);\n        _;\n    }\n\n    constructor() public {\n        owner = msg.sender;\n    }\n\n    function addStake(address _tokenAddress, uint _stake, address _bountyHunterAddress) public onlyOwner {\n        require(_stake != 0);\n        if (stakes[_tokenAddress].stakeMap[_bountyHunterAddress] == 0) {\n            stakes[_tokenAddress].hunterList.push(_bountyHunterAddress);\n        }\n        stakes[_tokenAddress].stakeMap[_bountyHunterAddress] += _stake;\n    }\n\n    function distributeStakes(address _tokenAddress, uint _stakeToTokens) public onlyOwner {\n\n        Token token = Token(_tokenAddress);\n\n        stakes[_tokenAddress].stakeToTokens = _stakeToTokens;\n\n        for ( uint i = 0; i < stakes[_tokenAddress].hunterList.length; i++ ) {\n            address _bountyHunter = stakes[_tokenAddress].hunterList[i];\n            uint _tokenAmount = stakes[_tokenAddress].stakeMap[_bountyHunter] * _stakeToTokens;\n            token.transfer(_bountyHunter, _tokenAmount);\n        }\n    }\n\n}\n",
   "sourcePath": "/Users/juanbernardotobar/lacanoa/oilyMushroom/contracts/BountyDropper.sol",
   "ast": {
     "absolutePath": "/Users/juanbernardotobar/lacanoa/oilyMushroom/contracts/BountyDropper.sol",
@@ -352,7 +352,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1150,
+                            "referencedDeclaration": 1093,
                             "src": "321:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -406,10 +406,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1153,
-                        1154
+                        1096,
+                        1097
                       ],
-                      "referencedDeclaration": 1153,
+                      "referencedDeclaration": 1096,
                       "src": "313:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -491,7 +491,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1150,
+                        "referencedDeclaration": 1093,
                         "src": "404:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -555,7 +555,7 @@
             "body": {
               "id": 82,
               "nodeType": "Block",
-              "src": "528:260:0",
+              "src": "528:265:0",
               "statements": [
                 {
                   "expression": {
@@ -623,10 +623,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1153,
-                        1154
+                        1096,
+                        1097
                       ],
-                      "referencedDeclaration": 1153,
+                      "referencedDeclaration": 1096,
                       "src": "538:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -992,23 +992,18 @@
                     "operator": "+=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "hexValue": "31",
                       "id": 79,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": true,
-                      "kind": "number",
-                      "lValueRequested": false,
-                      "nodeType": "Literal",
-                      "src": "780:1:0",
-                      "subdenomination": null,
+                      "name": "_stake",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 42,
+                      "src": "780:6:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_rational_1_by_1",
-                        "typeString": "int_const 1"
-                      },
-                      "value": "1"
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
                     },
-                    "src": "724:57:0",
+                    "src": "724:62:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1016,7 +1011,7 @@
                   },
                   "id": 81,
                   "nodeType": "ExpressionStatement",
-                  "src": "724:57:0"
+                  "src": "724:62:0"
                 }
               ]
             },
@@ -1141,7 +1136,7 @@
               "src": "528:0:0"
             },
             "scope": 150,
-            "src": "427:361:0",
+            "src": "427:366:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -1150,7 +1145,7 @@
             "body": {
               "id": 148,
               "nodeType": "Block",
-              "src": "881:431:0",
+              "src": "886:431:0",
               "statements": [
                 {
                   "assignments": [
@@ -1163,7 +1158,7 @@
                       "name": "token",
                       "nodeType": "VariableDeclaration",
                       "scope": 149,
-                      "src": "892:11:0",
+                      "src": "897:11:0",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -1176,7 +1171,7 @@
                         "name": "Token",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 718,
-                        "src": "892:5:0",
+                        "src": "897:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Token_$718",
                           "typeString": "contract Token"
@@ -1197,7 +1192,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 85,
-                        "src": "912:13:0",
+                        "src": "917:13:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -1216,7 +1211,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 718,
-                      "src": "906:5:0",
+                      "src": "911:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_type$_t_contract$_Token_$718_$",
                         "typeString": "type(contract Token)"
@@ -1230,14 +1225,14 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "906:20:0",
+                    "src": "911:20:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_contract$_Token_$718",
                       "typeString": "contract Token"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "892:34:0"
+                  "src": "897:34:0"
                 },
                 {
                   "expression": {
@@ -1258,7 +1253,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 18,
-                          "src": "937:6:0",
+                          "src": "942:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Stake_$14_storage_$",
                             "typeString": "mapping(address => struct BountyDropper.Stake storage ref)"
@@ -1272,7 +1267,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 85,
-                          "src": "944:13:0",
+                          "src": "949:13:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -1283,7 +1278,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "937:21:0",
+                        "src": "942:21:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Stake_$14_storage",
                           "typeString": "struct BountyDropper.Stake storage ref"
@@ -1297,7 +1292,7 @@
                       "memberName": "stakeToTokens",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 13,
-                      "src": "937:35:0",
+                      "src": "942:35:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1312,13 +1307,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 87,
-                      "src": "975:14:0",
+                      "src": "980:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "937:52:0",
+                    "src": "942:52:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1326,13 +1321,13 @@
                   },
                   "id": 104,
                   "nodeType": "ExpressionStatement",
-                  "src": "937:52:0"
+                  "src": "942:52:0"
                 },
                 {
                   "body": {
                     "id": 146,
                     "nodeType": "Block",
-                    "src": "1069:237:0",
+                    "src": "1074:237:0",
                     "statements": [
                       {
                         "assignments": [
@@ -1345,7 +1340,7 @@
                             "name": "_bountyHunter",
                             "nodeType": "VariableDeclaration",
                             "scope": 149,
-                            "src": "1083:21:0",
+                            "src": "1088:21:0",
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
@@ -1356,7 +1351,7 @@
                               "id": 119,
                               "name": "address",
                               "nodeType": "ElementaryTypeName",
-                              "src": "1083:7:0",
+                              "src": "1088:7:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
                                 "typeString": "address"
@@ -1380,7 +1375,7 @@
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 18,
-                                "src": "1107:6:0",
+                                "src": "1112:6:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Stake_$14_storage_$",
                                   "typeString": "mapping(address => struct BountyDropper.Stake storage ref)"
@@ -1394,7 +1389,7 @@
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 85,
-                                "src": "1114:13:0",
+                                "src": "1119:13:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -1405,7 +1400,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "1107:21:0",
+                              "src": "1112:21:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_Stake_$14_storage",
                                 "typeString": "struct BountyDropper.Stake storage ref"
@@ -1419,7 +1414,7 @@
                             "memberName": "hunterList",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": 7,
-                            "src": "1107:32:0",
+                            "src": "1112:32:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_array$_t_address_$dyn_storage",
                               "typeString": "address[] storage ref"
@@ -1433,7 +1428,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 106,
-                            "src": "1140:1:0",
+                            "src": "1145:1:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1444,14 +1439,14 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1107:35:0",
+                          "src": "1112:35:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
                           }
                         },
                         "nodeType": "VariableDeclarationStatement",
-                        "src": "1083:59:0"
+                        "src": "1088:59:0"
                       },
                       {
                         "assignments": [
@@ -1464,7 +1459,7 @@
                             "name": "_tokenAmount",
                             "nodeType": "VariableDeclaration",
                             "scope": 149,
-                            "src": "1156:17:0",
+                            "src": "1161:17:0",
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
@@ -1475,7 +1470,7 @@
                               "id": 128,
                               "name": "uint",
                               "nodeType": "ElementaryTypeName",
-                              "src": "1156:4:0",
+                              "src": "1161:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1510,7 +1505,7 @@
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
                                   "referencedDeclaration": 18,
-                                  "src": "1176:6:0",
+                                  "src": "1181:6:0",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Stake_$14_storage_$",
                                     "typeString": "mapping(address => struct BountyDropper.Stake storage ref)"
@@ -1524,7 +1519,7 @@
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
                                   "referencedDeclaration": 85,
-                                  "src": "1183:13:0",
+                                  "src": "1188:13:0",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_address",
                                     "typeString": "address"
@@ -1535,7 +1530,7 @@
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "nodeType": "IndexAccess",
-                                "src": "1176:21:0",
+                                "src": "1181:21:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Stake_$14_storage",
                                   "typeString": "struct BountyDropper.Stake storage ref"
@@ -1549,7 +1544,7 @@
                               "memberName": "stakeMap",
                               "nodeType": "MemberAccess",
                               "referencedDeclaration": 11,
-                              "src": "1176:30:0",
+                              "src": "1181:30:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                 "typeString": "mapping(address => uint256)"
@@ -1563,7 +1558,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 120,
-                              "src": "1207:13:0",
+                              "src": "1212:13:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
                                 "typeString": "address"
@@ -1574,7 +1569,7 @@
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "IndexAccess",
-                            "src": "1176:45:0",
+                            "src": "1181:45:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -1589,20 +1584,20 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 87,
-                            "src": "1224:14:0",
+                            "src": "1229:14:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1176:62:0",
+                          "src": "1181:62:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
                         "nodeType": "VariableDeclarationStatement",
-                        "src": "1156:82:0"
+                        "src": "1161:82:0"
                       },
                       {
                         "expression": {
@@ -1615,7 +1610,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 120,
-                              "src": "1267:13:0",
+                              "src": "1272:13:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
                                 "typeString": "address"
@@ -1628,7 +1623,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 129,
-                              "src": "1282:12:0",
+                              "src": "1287:12:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -1653,7 +1648,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 93,
-                              "src": "1252:5:0",
+                              "src": "1257:5:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_Token_$718",
                                 "typeString": "contract Token"
@@ -1667,7 +1662,7 @@
                             "memberName": "transfer",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": 413,
-                            "src": "1252:14:0",
+                            "src": "1257:14:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
                               "typeString": "function (address,uint256) external returns (bool)"
@@ -1681,7 +1676,7 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "1252:43:0",
+                          "src": "1257:43:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -1689,7 +1684,7 @@
                         },
                         "id": 145,
                         "nodeType": "ExpressionStatement",
-                        "src": "1252:43:0"
+                        "src": "1257:43:0"
                       }
                     ]
                   },
@@ -1711,7 +1706,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 106,
-                      "src": "1018:1:0",
+                      "src": "1023:1:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -1732,7 +1727,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 18,
-                            "src": "1022:6:0",
+                            "src": "1027:6:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Stake_$14_storage_$",
                               "typeString": "mapping(address => struct BountyDropper.Stake storage ref)"
@@ -1746,7 +1741,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 85,
-                            "src": "1029:13:0",
+                            "src": "1034:13:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -1757,7 +1752,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1022:21:0",
+                          "src": "1027:21:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Stake_$14_storage",
                             "typeString": "struct BountyDropper.Stake storage ref"
@@ -1771,7 +1766,7 @@
                         "memberName": "hunterList",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 7,
-                        "src": "1022:32:0",
+                        "src": "1027:32:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$dyn_storage",
                           "typeString": "address[] storage ref"
@@ -1785,13 +1780,13 @@
                       "memberName": "length",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1022:39:0",
+                      "src": "1027:39:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1018:43:0",
+                    "src": "1023:43:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -1809,7 +1804,7 @@
                         "name": "i",
                         "nodeType": "VariableDeclaration",
                         "scope": 149,
-                        "src": "1006:6:0",
+                        "src": "1011:6:0",
                         "stateVariable": false,
                         "storageLocation": "default",
                         "typeDescriptions": {
@@ -1820,7 +1815,7 @@
                           "id": 105,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
-                          "src": "1006:4:0",
+                          "src": "1011:4:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -1841,7 +1836,7 @@
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "1015:1:0",
+                      "src": "1020:1:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
@@ -1850,7 +1845,7 @@
                       "value": "0"
                     },
                     "nodeType": "VariableDeclarationStatement",
-                    "src": "1006:10:0"
+                    "src": "1011:10:0"
                   },
                   "loopExpression": {
                     "expression": {
@@ -1863,7 +1858,7 @@
                       "nodeType": "UnaryOperation",
                       "operator": "++",
                       "prefix": false,
-                      "src": "1063:3:0",
+                      "src": "1068:3:0",
                       "subExpression": {
                         "argumentTypes": null,
                         "id": 116,
@@ -1871,7 +1866,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 106,
-                        "src": "1063:1:0",
+                        "src": "1068:1:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -1884,10 +1879,10 @@
                     },
                     "id": 118,
                     "nodeType": "ExpressionStatement",
-                    "src": "1063:3:0"
+                    "src": "1068:3:0"
                   },
                   "nodeType": "ForStatement",
-                  "src": "1000:306:0"
+                  "src": "1005:306:0"
                 }
               ]
             },
@@ -1907,14 +1902,14 @@
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 29,
-                  "src": "871:9:0",
+                  "src": "876:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "871:9:0"
+                "src": "876:9:0"
               }
             ],
             "name": "distributeStakes",
@@ -1929,7 +1924,7 @@
                   "name": "_tokenAddress",
                   "nodeType": "VariableDeclaration",
                   "scope": 149,
-                  "src": "820:21:0",
+                  "src": "825:21:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1940,7 +1935,7 @@
                     "id": 84,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "820:7:0",
+                    "src": "825:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -1955,7 +1950,7 @@
                   "name": "_stakeToTokens",
                   "nodeType": "VariableDeclaration",
                   "scope": 149,
-                  "src": "843:19:0",
+                  "src": "848:19:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -1966,7 +1961,7 @@
                     "id": 86,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "843:4:0",
+                    "src": "848:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -1976,27 +1971,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "819:44:0"
+              "src": "824:44:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 91,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "881:0:0"
+              "src": "886:0:0"
             },
             "scope": 150,
-            "src": "794:518:0",
+            "src": "799:518:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 151,
-        "src": "53:1262:0"
+        "src": "53:1267:0"
       }
     ],
-    "src": "0:1316:0"
+    "src": "0:1321:0"
   },
   "legacyAST": {
     "absolutePath": "/Users/juanbernardotobar/lacanoa/oilyMushroom/contracts/BountyDropper.sol",
@@ -2263,7 +2258,7 @@
                             "name": "msg",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 1150,
+                            "referencedDeclaration": 1093,
                             "src": "321:3:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_message",
@@ -2317,10 +2312,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1153,
-                        1154
+                        1096,
+                        1097
                       ],
-                      "referencedDeclaration": 1153,
+                      "referencedDeclaration": 1096,
                       "src": "313:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2402,7 +2397,7 @@
                         "name": "msg",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 1150,
+                        "referencedDeclaration": 1093,
                         "src": "404:3:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_magic_message",
@@ -2466,7 +2461,7 @@
             "body": {
               "id": 82,
               "nodeType": "Block",
-              "src": "528:260:0",
+              "src": "528:265:0",
               "statements": [
                 {
                   "expression": {
@@ -2534,10 +2529,10 @@
                       "name": "require",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [
-                        1153,
-                        1154
+                        1096,
+                        1097
                       ],
-                      "referencedDeclaration": 1153,
+                      "referencedDeclaration": 1096,
                       "src": "538:7:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_require_pure$_t_bool_$returns$__$",
@@ -2903,23 +2898,18 @@
                     "operator": "+=",
                     "rightHandSide": {
                       "argumentTypes": null,
-                      "hexValue": "31",
                       "id": 79,
-                      "isConstant": false,
-                      "isLValue": false,
-                      "isPure": true,
-                      "kind": "number",
-                      "lValueRequested": false,
-                      "nodeType": "Literal",
-                      "src": "780:1:0",
-                      "subdenomination": null,
+                      "name": "_stake",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 42,
+                      "src": "780:6:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_rational_1_by_1",
-                        "typeString": "int_const 1"
-                      },
-                      "value": "1"
+                        "typeIdentifier": "t_uint256",
+                        "typeString": "uint256"
+                      }
                     },
-                    "src": "724:57:0",
+                    "src": "724:62:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -2927,7 +2917,7 @@
                   },
                   "id": 81,
                   "nodeType": "ExpressionStatement",
-                  "src": "724:57:0"
+                  "src": "724:62:0"
                 }
               ]
             },
@@ -3052,7 +3042,7 @@
               "src": "528:0:0"
             },
             "scope": 150,
-            "src": "427:361:0",
+            "src": "427:366:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
@@ -3061,7 +3051,7 @@
             "body": {
               "id": 148,
               "nodeType": "Block",
-              "src": "881:431:0",
+              "src": "886:431:0",
               "statements": [
                 {
                   "assignments": [
@@ -3074,7 +3064,7 @@
                       "name": "token",
                       "nodeType": "VariableDeclaration",
                       "scope": 149,
-                      "src": "892:11:0",
+                      "src": "897:11:0",
                       "stateVariable": false,
                       "storageLocation": "default",
                       "typeDescriptions": {
@@ -3087,7 +3077,7 @@
                         "name": "Token",
                         "nodeType": "UserDefinedTypeName",
                         "referencedDeclaration": 718,
-                        "src": "892:5:0",
+                        "src": "897:5:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_contract$_Token_$718",
                           "typeString": "contract Token"
@@ -3108,7 +3098,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 85,
-                        "src": "912:13:0",
+                        "src": "917:13:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_address",
                           "typeString": "address"
@@ -3127,7 +3117,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 718,
-                      "src": "906:5:0",
+                      "src": "911:5:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_type$_t_contract$_Token_$718_$",
                         "typeString": "type(contract Token)"
@@ -3141,14 +3131,14 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "906:20:0",
+                    "src": "911:20:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_contract$_Token_$718",
                       "typeString": "contract Token"
                     }
                   },
                   "nodeType": "VariableDeclarationStatement",
-                  "src": "892:34:0"
+                  "src": "897:34:0"
                 },
                 {
                   "expression": {
@@ -3169,7 +3159,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 18,
-                          "src": "937:6:0",
+                          "src": "942:6:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Stake_$14_storage_$",
                             "typeString": "mapping(address => struct BountyDropper.Stake storage ref)"
@@ -3183,7 +3173,7 @@
                           "nodeType": "Identifier",
                           "overloadedDeclarations": [],
                           "referencedDeclaration": 85,
-                          "src": "944:13:0",
+                          "src": "949:13:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
@@ -3194,7 +3184,7 @@
                         "isPure": false,
                         "lValueRequested": false,
                         "nodeType": "IndexAccess",
-                        "src": "937:21:0",
+                        "src": "942:21:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_struct$_Stake_$14_storage",
                           "typeString": "struct BountyDropper.Stake storage ref"
@@ -3208,7 +3198,7 @@
                       "memberName": "stakeToTokens",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": 13,
-                      "src": "937:35:0",
+                      "src": "942:35:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3223,13 +3213,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 87,
-                      "src": "975:14:0",
+                      "src": "980:14:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "937:52:0",
+                    "src": "942:52:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3237,13 +3227,13 @@
                   },
                   "id": 104,
                   "nodeType": "ExpressionStatement",
-                  "src": "937:52:0"
+                  "src": "942:52:0"
                 },
                 {
                   "body": {
                     "id": 146,
                     "nodeType": "Block",
-                    "src": "1069:237:0",
+                    "src": "1074:237:0",
                     "statements": [
                       {
                         "assignments": [
@@ -3256,7 +3246,7 @@
                             "name": "_bountyHunter",
                             "nodeType": "VariableDeclaration",
                             "scope": 149,
-                            "src": "1083:21:0",
+                            "src": "1088:21:0",
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
@@ -3267,7 +3257,7 @@
                               "id": 119,
                               "name": "address",
                               "nodeType": "ElementaryTypeName",
-                              "src": "1083:7:0",
+                              "src": "1088:7:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
                                 "typeString": "address"
@@ -3291,7 +3281,7 @@
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 18,
-                                "src": "1107:6:0",
+                                "src": "1112:6:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Stake_$14_storage_$",
                                   "typeString": "mapping(address => struct BountyDropper.Stake storage ref)"
@@ -3305,7 +3295,7 @@
                                 "nodeType": "Identifier",
                                 "overloadedDeclarations": [],
                                 "referencedDeclaration": 85,
-                                "src": "1114:13:0",
+                                "src": "1119:13:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_address",
                                   "typeString": "address"
@@ -3316,7 +3306,7 @@
                               "isPure": false,
                               "lValueRequested": false,
                               "nodeType": "IndexAccess",
-                              "src": "1107:21:0",
+                              "src": "1112:21:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_struct$_Stake_$14_storage",
                                 "typeString": "struct BountyDropper.Stake storage ref"
@@ -3330,7 +3320,7 @@
                             "memberName": "hunterList",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": 7,
-                            "src": "1107:32:0",
+                            "src": "1112:32:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_array$_t_address_$dyn_storage",
                               "typeString": "address[] storage ref"
@@ -3344,7 +3334,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 106,
-                            "src": "1140:1:0",
+                            "src": "1145:1:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -3355,14 +3345,14 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1107:35:0",
+                          "src": "1112:35:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_address",
                             "typeString": "address"
                           }
                         },
                         "nodeType": "VariableDeclarationStatement",
-                        "src": "1083:59:0"
+                        "src": "1088:59:0"
                       },
                       {
                         "assignments": [
@@ -3375,7 +3365,7 @@
                             "name": "_tokenAmount",
                             "nodeType": "VariableDeclaration",
                             "scope": 149,
-                            "src": "1156:17:0",
+                            "src": "1161:17:0",
                             "stateVariable": false,
                             "storageLocation": "default",
                             "typeDescriptions": {
@@ -3386,7 +3376,7 @@
                               "id": 128,
                               "name": "uint",
                               "nodeType": "ElementaryTypeName",
-                              "src": "1156:4:0",
+                              "src": "1161:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -3421,7 +3411,7 @@
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
                                   "referencedDeclaration": 18,
-                                  "src": "1176:6:0",
+                                  "src": "1181:6:0",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Stake_$14_storage_$",
                                     "typeString": "mapping(address => struct BountyDropper.Stake storage ref)"
@@ -3435,7 +3425,7 @@
                                   "nodeType": "Identifier",
                                   "overloadedDeclarations": [],
                                   "referencedDeclaration": 85,
-                                  "src": "1183:13:0",
+                                  "src": "1188:13:0",
                                   "typeDescriptions": {
                                     "typeIdentifier": "t_address",
                                     "typeString": "address"
@@ -3446,7 +3436,7 @@
                                 "isPure": false,
                                 "lValueRequested": false,
                                 "nodeType": "IndexAccess",
-                                "src": "1176:21:0",
+                                "src": "1181:21:0",
                                 "typeDescriptions": {
                                   "typeIdentifier": "t_struct$_Stake_$14_storage",
                                   "typeString": "struct BountyDropper.Stake storage ref"
@@ -3460,7 +3450,7 @@
                               "memberName": "stakeMap",
                               "nodeType": "MemberAccess",
                               "referencedDeclaration": 11,
-                              "src": "1176:30:0",
+                              "src": "1181:30:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_mapping$_t_address_$_t_uint256_$",
                                 "typeString": "mapping(address => uint256)"
@@ -3474,7 +3464,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 120,
-                              "src": "1207:13:0",
+                              "src": "1212:13:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
                                 "typeString": "address"
@@ -3485,7 +3475,7 @@
                             "isPure": false,
                             "lValueRequested": false,
                             "nodeType": "IndexAccess",
-                            "src": "1176:45:0",
+                            "src": "1181:45:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
@@ -3500,20 +3490,20 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 87,
-                            "src": "1224:14:0",
+                            "src": "1229:14:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_uint256",
                               "typeString": "uint256"
                             }
                           },
-                          "src": "1176:62:0",
+                          "src": "1181:62:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
                           }
                         },
                         "nodeType": "VariableDeclarationStatement",
-                        "src": "1156:82:0"
+                        "src": "1161:82:0"
                       },
                       {
                         "expression": {
@@ -3526,7 +3516,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 120,
-                              "src": "1267:13:0",
+                              "src": "1272:13:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_address",
                                 "typeString": "address"
@@ -3539,7 +3529,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 129,
-                              "src": "1282:12:0",
+                              "src": "1287:12:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_uint256",
                                 "typeString": "uint256"
@@ -3564,7 +3554,7 @@
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
                               "referencedDeclaration": 93,
-                              "src": "1252:5:0",
+                              "src": "1257:5:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_Token_$718",
                                 "typeString": "contract Token"
@@ -3578,7 +3568,7 @@
                             "memberName": "transfer",
                             "nodeType": "MemberAccess",
                             "referencedDeclaration": 413,
-                            "src": "1252:14:0",
+                            "src": "1257:14:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_nonpayable$_t_address_$_t_uint256_$returns$_t_bool_$",
                               "typeString": "function (address,uint256) external returns (bool)"
@@ -3592,7 +3582,7 @@
                           "lValueRequested": false,
                           "names": [],
                           "nodeType": "FunctionCall",
-                          "src": "1252:43:0",
+                          "src": "1257:43:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_bool",
                             "typeString": "bool"
@@ -3600,7 +3590,7 @@
                         },
                         "id": 145,
                         "nodeType": "ExpressionStatement",
-                        "src": "1252:43:0"
+                        "src": "1257:43:0"
                       }
                     ]
                   },
@@ -3622,7 +3612,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 106,
-                      "src": "1018:1:0",
+                      "src": "1023:1:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -3643,7 +3633,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 18,
-                            "src": "1022:6:0",
+                            "src": "1027:6:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_mapping$_t_address_$_t_struct$_Stake_$14_storage_$",
                               "typeString": "mapping(address => struct BountyDropper.Stake storage ref)"
@@ -3657,7 +3647,7 @@
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
                             "referencedDeclaration": 85,
-                            "src": "1029:13:0",
+                            "src": "1034:13:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_address",
                               "typeString": "address"
@@ -3668,7 +3658,7 @@
                           "isPure": false,
                           "lValueRequested": false,
                           "nodeType": "IndexAccess",
-                          "src": "1022:21:0",
+                          "src": "1027:21:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_struct$_Stake_$14_storage",
                             "typeString": "struct BountyDropper.Stake storage ref"
@@ -3682,7 +3672,7 @@
                         "memberName": "hunterList",
                         "nodeType": "MemberAccess",
                         "referencedDeclaration": 7,
-                        "src": "1022:32:0",
+                        "src": "1027:32:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_array$_t_address_$dyn_storage",
                           "typeString": "address[] storage ref"
@@ -3696,13 +3686,13 @@
                       "memberName": "length",
                       "nodeType": "MemberAccess",
                       "referencedDeclaration": null,
-                      "src": "1022:39:0",
+                      "src": "1027:39:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "1018:43:0",
+                    "src": "1023:43:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bool",
                       "typeString": "bool"
@@ -3720,7 +3710,7 @@
                         "name": "i",
                         "nodeType": "VariableDeclaration",
                         "scope": 149,
-                        "src": "1006:6:0",
+                        "src": "1011:6:0",
                         "stateVariable": false,
                         "storageLocation": "default",
                         "typeDescriptions": {
@@ -3731,7 +3721,7 @@
                           "id": 105,
                           "name": "uint",
                           "nodeType": "ElementaryTypeName",
-                          "src": "1006:4:0",
+                          "src": "1011:4:0",
                           "typeDescriptions": {
                             "typeIdentifier": "t_uint256",
                             "typeString": "uint256"
@@ -3752,7 +3742,7 @@
                       "kind": "number",
                       "lValueRequested": false,
                       "nodeType": "Literal",
-                      "src": "1015:1:0",
+                      "src": "1020:1:0",
                       "subdenomination": null,
                       "typeDescriptions": {
                         "typeIdentifier": "t_rational_0_by_1",
@@ -3761,7 +3751,7 @@
                       "value": "0"
                     },
                     "nodeType": "VariableDeclarationStatement",
-                    "src": "1006:10:0"
+                    "src": "1011:10:0"
                   },
                   "loopExpression": {
                     "expression": {
@@ -3774,7 +3764,7 @@
                       "nodeType": "UnaryOperation",
                       "operator": "++",
                       "prefix": false,
-                      "src": "1063:3:0",
+                      "src": "1068:3:0",
                       "subExpression": {
                         "argumentTypes": null,
                         "id": 116,
@@ -3782,7 +3772,7 @@
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
                         "referencedDeclaration": 106,
-                        "src": "1063:1:0",
+                        "src": "1068:1:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_uint256",
                           "typeString": "uint256"
@@ -3795,10 +3785,10 @@
                     },
                     "id": 118,
                     "nodeType": "ExpressionStatement",
-                    "src": "1063:3:0"
+                    "src": "1068:3:0"
                   },
                   "nodeType": "ForStatement",
-                  "src": "1000:306:0"
+                  "src": "1005:306:0"
                 }
               ]
             },
@@ -3818,14 +3808,14 @@
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
                   "referencedDeclaration": 29,
-                  "src": "871:9:0",
+                  "src": "876:9:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
                     "typeString": "modifier ()"
                   }
                 },
                 "nodeType": "ModifierInvocation",
-                "src": "871:9:0"
+                "src": "876:9:0"
               }
             ],
             "name": "distributeStakes",
@@ -3840,7 +3830,7 @@
                   "name": "_tokenAddress",
                   "nodeType": "VariableDeclaration",
                   "scope": 149,
-                  "src": "820:21:0",
+                  "src": "825:21:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3851,7 +3841,7 @@
                     "id": 84,
                     "name": "address",
                     "nodeType": "ElementaryTypeName",
-                    "src": "820:7:0",
+                    "src": "825:7:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_address",
                       "typeString": "address"
@@ -3866,7 +3856,7 @@
                   "name": "_stakeToTokens",
                   "nodeType": "VariableDeclaration",
                   "scope": 149,
-                  "src": "843:19:0",
+                  "src": "848:19:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -3877,7 +3867,7 @@
                     "id": 86,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "843:4:0",
+                    "src": "848:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -3887,27 +3877,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "819:44:0"
+              "src": "824:44:0"
             },
             "payable": false,
             "returnParameters": {
               "id": 91,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "881:0:0"
+              "src": "886:0:0"
             },
             "scope": 150,
-            "src": "794:518:0",
+            "src": "799:518:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 151,
-        "src": "53:1262:0"
+        "src": "53:1267:0"
       }
     ],
-    "src": "0:1316:0"
+    "src": "0:1321:0"
   },
   "compiler": {
     "name": "solc",
@@ -3915,5 +3905,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-08-07T14:50:24.681Z"
+  "updatedAt": "2018-08-15T11:43:27.634Z"
 }

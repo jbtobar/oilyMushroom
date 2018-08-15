@@ -26,7 +26,7 @@ contract BountyDropper {
         if (stakes[_tokenAddress].stakeMap[_bountyHunterAddress] == 0) {
             stakes[_tokenAddress].hunterList.push(_bountyHunterAddress);
         }
-        stakes[_tokenAddress].stakeMap[_bountyHunterAddress] += 1;
+        stakes[_tokenAddress].stakeMap[_bountyHunterAddress] += _stake;
     }
 
     function distributeStakes(address _tokenAddress, uint _stakeToTokens) public onlyOwner {
