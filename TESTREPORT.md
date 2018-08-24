@@ -1,17 +1,13 @@
 ```
 Contract: BountyDropper
-  ✓ Deploys BountyDropper (101ms)
-  ✓ Deploys ICO-1, ICO-2, ICO-3 Tokens (454ms)
-  ✓ Minting ICO-1, ICO-2, ICO-3, Tokens to BountyDropper (653ms)
-  ✓ Add 500 stakes in ICO-1 for BH-1 (66ms)
-  ✓ Add 100 stakes in ICO-1 for BH-2 (53ms)
-  ✓ Add 1000 stakes in ICO-1 for BH-3 (49ms)
-  ✓ Add 500 stakes in ICO-2 for BH-1 (69ms)
-  ✓ Add 50 stakes in ICO-2 for BH-2 (165ms)
-  ✓ Add 300 stakes in ICO-2 for BH-3 (122ms)
-  ✓ Add 500 stakes in ICO-3 for BH-1 (69ms)
-  ✓ Add 500 stakes in ICO-3 for BH-2 (122ms)
-  ✓ Add 500 stakes in ICO-3 for BH-3 (71ms)
+  ✓ Deploys BountyDropper (69ms)
+  ✓ Deploys ICO-1, ICO-2, ICO-3 Tokens (259ms)
+  ✓ Minting ICO-1, ICO-2, ICO-3, Tokens to BountyDropper (330ms)
+12
+12
+12
+12
+  ✓ addes stakes (249ms)
 
           Token 1 Balances
           BountyHunter1 : 0
@@ -28,13 +24,13 @@ Contract: BountyDropper
           BountyHunter2 : 0
           BountyHunter3 : 0
 
-  ✓ Preliminary Balances (439ms)
-  ✓ Distributes stakes in ICO-1 at rate of 50 (397ms)
+  ✓ Prelimiary Balances (156ms)
+  ✓ Distributes stakes in ICO-1 at rate of 50 (94ms)
 
           Token 1 Balances
-          BountyHunter1 : 25000
-          BountyHunter2 : 5000
-          BountyHunter3 : 50000
+          BountyHunter1 : 10
+          BountyHunter2 : 20
+          BountyHunter3 : 0
           -------------------------
           Token 2 Balances
           BountyHunter1 : 0
@@ -46,44 +42,152 @@ Contract: BountyDropper
           BountyHunter2 : 0
           BountyHunter3 : 0
 
-  ✓ Balances (756ms)
-  ✓ Distributes stakes in ICO-2 at rate of 10 (800ms)
+  ✓ Balances (140ms)
+  ✓ Distributes stakes in ICO-1 at rate of 50 (79ms)
 
           Token 1 Balances
-          BountyHunter1 : 25000
-          BountyHunter2 : 5000
-          BountyHunter3 : 50000
+          BountyHunter1 : 13
+          BountyHunter2 : 20
+          BountyHunter3 : 33
           -------------------------
           Token 2 Balances
-          BountyHunter1 : 5000
-          BountyHunter2 : 500
-          BountyHunter3 : 3000
+          BountyHunter1 : 0
+          BountyHunter2 : 0
+          BountyHunter3 : 0
           -------------------------
           Token 3 Balances
           BountyHunter1 : 0
           BountyHunter2 : 0
           BountyHunter3 : 0
 
-  ✓ Balances (732ms)
-  ✓ Distributes stakes in ICO-2 at rate of 3 (284ms)
+  ✓ Balances (152ms)
+  ✓ Distributes stakes in ICO-1 at rate of 50 (78ms)
 
           Token 1 Balances
-          BountyHunter1 : 25000
-          BountyHunter2 : 5000
-          BountyHunter3 : 50000
+          BountyHunter1 : 13
+          BountyHunter2 : 20
+          BountyHunter3 : 33
           -------------------------
           Token 2 Balances
-          BountyHunter1 : 5000
-          BountyHunter2 : 500
-          BountyHunter3 : 3000
+          BountyHunter1 : 0
+          BountyHunter2 : 15
+          BountyHunter3 : 2
           -------------------------
           Token 3 Balances
-          BountyHunter1 : 1500
-          BountyHunter2 : 3000
-          BountyHunter3 : 1200
+          BountyHunter1 : 0
+          BountyHunter2 : 0
+          BountyHunter3 : 0
 
-  ✓ Balances (733ms)
+  ✓ Balances (150ms)
+  ✓ Distributes stakes in ICO-1 at rate of 50 (61ms)
+
+          Token 1 Balances
+          BountyHunter1 : 13
+          BountyHunter2 : 20
+          BountyHunter3 : 33
+          -------------------------
+          Token 2 Balances
+          BountyHunter1 : 2
+          BountyHunter2 : 15
+          BountyHunter3 : 2
+          -------------------------
+          Token 3 Balances
+          BountyHunter1 : 0
+          BountyHunter2 : 0
+          BountyHunter3 : 0
+
+  ✓ Balances (143ms)
+  ✓ Distributes stakes in ICO-1 at rate of 50 (55ms)
+
+          Token 1 Balances
+          BountyHunter1 : 13
+          BountyHunter2 : 20
+          BountyHunter3 : 33
+          -------------------------
+          Token 2 Balances
+          BountyHunter1 : 2
+          BountyHunter2 : 35
+          BountyHunter3 : 2
+          -------------------------
+          Token 3 Balances
+          BountyHunter1 : 0
+          BountyHunter2 : 0
+          BountyHunter3 : 0
+
+  ✓ Balances (143ms)
+  ✓ Distributes stakes in ICO-1 at rate of 50 (66ms)
+
+          Token 1 Balances
+          BountyHunter1 : 13
+          BountyHunter2 : 20
+          BountyHunter3 : 33
+          -------------------------
+          Token 2 Balances
+          BountyHunter1 : 2
+          BountyHunter2 : 35
+          BountyHunter3 : 2
+          -------------------------
+          Token 3 Balances
+          BountyHunter1 : 0
+          BountyHunter2 : 0
+          BountyHunter3 : 15
+
+  ✓ Balances (145ms)
+  ✓ Distributes stakes in ICO-1 at rate of 50 (109ms)
+
+          Token 1 Balances
+          BountyHunter1 : 13
+          BountyHunter2 : 20
+          BountyHunter3 : 33
+          -------------------------
+          Token 2 Balances
+          BountyHunter1 : 2
+          BountyHunter2 : 35
+          BountyHunter3 : 2
+          -------------------------
+          Token 3 Balances
+          BountyHunter1 : 30
+          BountyHunter2 : 0
+          BountyHunter3 : 15
+
+  ✓ Balances (156ms)
+  ✓ Distributes stakes in ICO-1 at rate of 50 (68ms)
+
+          Token 1 Balances
+          BountyHunter1 : 13
+          BountyHunter2 : 20
+          BountyHunter3 : 33
+          -------------------------
+          Token 2 Balances
+          BountyHunter1 : 2
+          BountyHunter2 : 35
+          BountyHunter3 : 2
+          -------------------------
+          Token 3 Balances
+          BountyHunter1 : 30
+          BountyHunter2 : 400
+          BountyHunter3 : 15
+
+  ✓ Balances (143ms)
+  ✓ Distributes stakes in ICO-1 at rate of 50 (58ms)
+
+          Token 1 Balances
+          BountyHunter1 : 13
+          BountyHunter2 : 20
+          BountyHunter3 : 33
+          -------------------------
+          Token 2 Balances
+          BountyHunter1 : 2
+          BountyHunter2 : 35
+          BountyHunter3 : 2
+          -------------------------
+          Token 3 Balances
+          BountyHunter1 : 30
+          BountyHunter2 : 400
+          BountyHunter3 : 345
+
+  ✓ Balances (145ms)
 
 
-19 passing (6s)
+23 passing (3s)
 ```

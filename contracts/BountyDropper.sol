@@ -4,10 +4,6 @@ import "./ERC20Token.sol";
 contract BountyDropper {
 
     address public owner;
-    uint public added1;
-    uint public added2;
-    address public blawan1;
-    uint public blawan2;
 
     struct Stake {
         address[] hunterList;
@@ -33,13 +29,9 @@ contract BountyDropper {
         for ( uint i=0; i<_stakes.length; i++) {
             if (stakes[_tokenAddresses[i]][_campaigns[i]].stakeMap[_bountyHunterAddresses[i]] > 0) {
                 stakes[_tokenAddresses[i]][_campaigns[i]].stakeMap[_bountyHunterAddresses[i]] += _stakes[i];
-                added1 += 1;
             } else {
-                blawan1 = _tokenAddresses[i];
-                blawan2 = _campaigns[i];
                 stakes[_tokenAddresses[i]][_campaigns[i]].hunterList.push(_bountyHunterAddresses[i]);
                 stakes[_tokenAddresses[i]][_campaigns[i]].stakeMap[_bountyHunterAddresses[i]] = _stakes[i];
-                added2 += 1;
             }
 
         }
@@ -51,9 +43,6 @@ contract BountyDropper {
             stakes[_tokenAddress][_campaign].hunterList.push(_bountyHunterAddress);
         }
         stakes[_tokenAddress][_campaign].stakeMap[_bountyHunterAddress] += _stake;
-    }
-    function huntinGames(address _tokenAddress, uint _campaign) public onlyOwner returns(uint) {
-        return stakes[_tokenAddress][_campaign].hunterList.length;
     }
 
     function distributeStakes(address _tokenAddress, uint _campaign ,uint _stakeToTokens) public onlyOwner {
