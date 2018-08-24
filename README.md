@@ -6,7 +6,9 @@ The contract is located here: `/contracts/BountyDropper.sol`
 
 **Contract and tests updated Aug, 24, 2018**
 
-Here is the content:
+Look at the contract and the tests below.
+
+(testfile in test directory)
 
 ```javascript
 pragma solidity ^0.4.24;
@@ -73,21 +75,6 @@ contract BountyDropper {
 
 
 ```
-## How it works:
-
-1. Only the 'Owner' can call the functions of this contract
-2. To add a stake, use function `addStake(address _tokenAddress, uint _stake, address _bountyHunterAddress)`. This will store how many stakes any bountyHunter has in any ICO.
-3.  To distribute stakes, use function `distributeStakes(address _tokenAddress, uint _stakeToTokens)`. This will distribute the stakes for a given tokenAddress. The second argument is important, as it dictates the rate of conversion between stakes and tokens. So this function will go through all of the bountyHunters for the given ICO, multiply the number of stakes they have by the argument given in this function, and transfer the result to each bountyHunter.
-
-## IMPORTANT!
-
-I have not yet implemented a control to make sure that the rate of stakes to tokens is such that it allows to transfer the correct amount to all bountyHunters. Thus, as of now, **it depends on correct and responsible use by the contract owner**. What I mean is: if contract owner passes a stakeToTokens variable that is too big, then only a certain number of bountyHunters will receive their tokens and it might then ... oh now that I think about this, I can implement this control very easily tonight.
-
-
-Also, the contract has to have control of all of the tokens in order to distribute them.
-
-I also have to take a look at the maximum amount of data a contract can hold to see how many bountyHunters and ICO's could be stored here.
-
 ## Test results
 
 You can look at the testfile in the `test` directory. It is also useful to know how to interact with this contract using web3.
@@ -289,6 +276,24 @@ Contract: BountyDropper
 23 passing (3s)
 ```
 
+
+
+---
+
+## How it works:
+
+1. Only the 'Owner' can call the functions of this contract
+2. To add a stake, use function `addStake(address _tokenAddress, uint _stake, address _bountyHunterAddress)`. This will store how many stakes any bountyHunter has in any ICO.
+3.  To distribute stakes, use function `distributeStakes(address _tokenAddress, uint _stakeToTokens)`. This will distribute the stakes for a given tokenAddress. The second argument is important, as it dictates the rate of conversion between stakes and tokens. So this function will go through all of the bountyHunters for the given ICO, multiply the number of stakes they have by the argument given in this function, and transfer the result to each bountyHunter.
+
+## IMPORTANT!
+
+I have not yet implemented a control to make sure that the rate of stakes to tokens is such that it allows to transfer the correct amount to all bountyHunters. Thus, as of now, **it depends on correct and responsible use by the contract owner**. What I mean is: if contract owner passes a stakeToTokens variable that is too big, then only a certain number of bountyHunters will receive their tokens and it might then ... oh now that I think about this, I can implement this control very easily tonight.
+
+
+Also, the contract has to have control of all of the tokens in order to distribute them.
+
+I also have to take a look at the maximum amount of data a contract can hold to see how many bountyHunters and ICO's could be stored here.
 
 
 
