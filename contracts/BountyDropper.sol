@@ -6,6 +6,8 @@ contract BountyDropper {
     address public owner;
     uint public added1;
     uint public added2;
+    address public blawan1;
+    uint public blawan2;
 
     struct Stake {
         address[] hunterList;
@@ -23,7 +25,7 @@ contract BountyDropper {
         owner = msg.sender;
     }
 
-    function addStakes(address[] _tokenAddresses, uint[] _stakes, address[] _bountyHunterAddresses, uint[] _campaigns) public onlyOwner {
+    function addStakes(address[] _tokenAddresses, uint[] _campaigns, uint[] _stakes, address[] _bountyHunterAddresses) public onlyOwner {
         require(_tokenAddresses.length == _stakes.length);
         require(_stakes.length == _bountyHunterAddresses.length);
         require(_bountyHunterAddresses.length == _campaigns.length);
@@ -33,6 +35,8 @@ contract BountyDropper {
                 stakes[_tokenAddresses[i]][_campaigns[i]].stakeMap[_bountyHunterAddresses[i]] += _stakes[i];
                 added1 += 1;
             } else {
+                blawan1 = _tokenAddresses[i];
+                blawan2 = _campaigns[i];
                 stakes[_tokenAddresses[i]][_campaigns[i]].hunterList.push(_bountyHunterAddresses[i]);
                 stakes[_tokenAddresses[i]][_campaigns[i]].stakeMap[_bountyHunterAddresses[i]] = _stakes[i];
                 added2 += 1;

@@ -44,15 +44,15 @@ contract('BountyDropper', function(accounts) {
         assert.equal(balance3.valueOf(), tokenAmount*500, "Tokens have not been minted to the ICOContract");
     });
     it('addes stakes', async function() {
-        // _tokenAddresses = [token1.address,token1.address,token1.address,token1.address,token2.address,token2.address,token2.address,token2.address,token3.address,token3.address,token3.address,token3.address]
-        // _campaigns =      [0,0,1,1,0,0,1,2,0,1,2,3]
-        // _stakes = [10,20,11,1,15,2,1,2,5,10,20,30]
-        // _bountyHunterAddresses = [bountyHunter1,bountyHunter2,bountyHunter3,bountyHunter1,bountyHunter2,bountyHunter3,bountyHunter1,bountyHunter2,bountyHunter3,bountyHunter1,bountyHunter2,bountyHunter3]
+        _tokenAddresses = [token1.address,token1.address,token1.address,token1.address,token2.address,token2.address,token2.address,token2.address,token3.address,token3.address,token3.address,token3.address]
+        _campaigns =      [0,0,1,1,0,0,1,2,0,1,2,3]
+        _stakes = [10,20,11,1,15,2,1,2,5,10,20,30]
+        _bountyHunterAddresses = [bountyHunter1,bountyHunter2,bountyHunter3,bountyHunter1,bountyHunter2,bountyHunter3,bountyHunter1,bountyHunter2,bountyHunter3,bountyHunter1,bountyHunter2,bountyHunter3]
 
-        _tokenAddresses = ['0xb3fe04fe73d672001f2f31549592911c9e4539e6']
-        _campaigns =      [0]
-        _stakes = [5]
-        _bountyHunterAddresses = ['0xb3fe04fe73d672001f2f31549592911c9e4539e6']
+        // _tokenAddresses = [token1.address]
+        // _campaigns = [0]
+        // _stakes = [5]
+        // _bountyHunterAddresses = [bountyHunter1]
         console.log(_tokenAddresses.length)
         console.log(_campaigns.length)
         console.log(_stakes.length)
@@ -122,8 +122,12 @@ contract('BountyDropper', function(accounts) {
     })
 
     it('HUNTING GAMES', async function() {
-        var what = await bountyDropper.huntinGames.call('0xb3fe04fe73d672001f2f31549592911c9e4539e6',0)
+        var what = await bountyDropper.huntinGames.call(token1.address,0)
         console.log(what.valueOf())
+        blawan1 = await bountyDropper.blawan1()
+        blawan2 = await bountyDropper.blawan2()
+        console.log(blawan1.valueOf())
+        console.log(blawan2.valueOf())
     })
     it('Distributes stakes in ICO-1 at rate of 50', async function() {
         await bountyDropper.distributeStakes(token1.address,0,1)
@@ -161,6 +165,108 @@ contract('BountyDropper', function(accounts) {
     })
     it('Distributes stakes in ICO-1 at rate of 50', async function() {
         await bountyDropper.distributeStakes(token1.address,1,3)
+    })
+    it('Balances', async function() {
+        var a1 = await token1.balanceOf(bountyHunter1)
+        var a2 = await token1.balanceOf(bountyHunter2)
+        var a3 = await token1.balanceOf(bountyHunter3)
+
+        var b1 = await token2.balanceOf(bountyHunter1)
+        var b2 = await token2.balanceOf(bountyHunter2)
+        var b3 = await token2.balanceOf(bountyHunter3)
+
+        var c1 = await token3.balanceOf(bountyHunter1)
+        var c2 = await token3.balanceOf(bountyHunter2)
+        var c3 = await token3.balanceOf(bountyHunter3)
+
+        message = `
+            Token 1 Balances
+            BountyHunter1 : `+a1.valueOf()+`
+            BountyHunter2 : `+a2.valueOf()+`
+            BountyHunter3 : `+a3.valueOf()+`
+            -------------------------
+            Token 2 Balances
+            BountyHunter1 : `+b1.valueOf()+`
+            BountyHunter2 : `+b2.valueOf()+`
+            BountyHunter3 : `+b3.valueOf()+`
+            -------------------------
+            Token 3 Balances
+            BountyHunter1 : `+c1.valueOf()+`
+            BountyHunter2 : `+c2.valueOf()+`
+            BountyHunter3 : `+c3.valueOf()+`
+        `
+        console.log(message)
+    })
+    it('Distributes stakes in ICO-1 at rate of 50', async function() {
+        await bountyDropper.distributeStakes(token2.address,0,1)
+    })
+    it('Balances', async function() {
+        var a1 = await token1.balanceOf(bountyHunter1)
+        var a2 = await token1.balanceOf(bountyHunter2)
+        var a3 = await token1.balanceOf(bountyHunter3)
+
+        var b1 = await token2.balanceOf(bountyHunter1)
+        var b2 = await token2.balanceOf(bountyHunter2)
+        var b3 = await token2.balanceOf(bountyHunter3)
+
+        var c1 = await token3.balanceOf(bountyHunter1)
+        var c2 = await token3.balanceOf(bountyHunter2)
+        var c3 = await token3.balanceOf(bountyHunter3)
+
+        message = `
+            Token 1 Balances
+            BountyHunter1 : `+a1.valueOf()+`
+            BountyHunter2 : `+a2.valueOf()+`
+            BountyHunter3 : `+a3.valueOf()+`
+            -------------------------
+            Token 2 Balances
+            BountyHunter1 : `+b1.valueOf()+`
+            BountyHunter2 : `+b2.valueOf()+`
+            BountyHunter3 : `+b3.valueOf()+`
+            -------------------------
+            Token 3 Balances
+            BountyHunter1 : `+c1.valueOf()+`
+            BountyHunter2 : `+c2.valueOf()+`
+            BountyHunter3 : `+c3.valueOf()+`
+        `
+        console.log(message)
+    })
+    it('Distributes stakes in ICO-1 at rate of 50', async function() {
+        await bountyDropper.distributeStakes(token2.address,1,2)
+    })
+    it('Balances', async function() {
+        var a1 = await token1.balanceOf(bountyHunter1)
+        var a2 = await token1.balanceOf(bountyHunter2)
+        var a3 = await token1.balanceOf(bountyHunter3)
+
+        var b1 = await token2.balanceOf(bountyHunter1)
+        var b2 = await token2.balanceOf(bountyHunter2)
+        var b3 = await token2.balanceOf(bountyHunter3)
+
+        var c1 = await token3.balanceOf(bountyHunter1)
+        var c2 = await token3.balanceOf(bountyHunter2)
+        var c3 = await token3.balanceOf(bountyHunter3)
+
+        message = `
+            Token 1 Balances
+            BountyHunter1 : `+a1.valueOf()+`
+            BountyHunter2 : `+a2.valueOf()+`
+            BountyHunter3 : `+a3.valueOf()+`
+            -------------------------
+            Token 2 Balances
+            BountyHunter1 : `+b1.valueOf()+`
+            BountyHunter2 : `+b2.valueOf()+`
+            BountyHunter3 : `+b3.valueOf()+`
+            -------------------------
+            Token 3 Balances
+            BountyHunter1 : `+c1.valueOf()+`
+            BountyHunter2 : `+c2.valueOf()+`
+            BountyHunter3 : `+c3.valueOf()+`
+        `
+        console.log(message)
+    })
+    it('Distributes stakes in ICO-1 at rate of 50', async function() {
+        await bountyDropper.distributeStakes(token2.address,2,10)
     })
     it('Balances', async function() {
         var a1 = await token1.balanceOf(bountyHunter1)
